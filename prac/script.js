@@ -140,6 +140,7 @@
 //     document.getElementById("result").textContent = `the answer should be a number`
 
 // }
+//------------------------------------//------------------------------------------
 
 
 // .checked property 
@@ -168,4 +169,44 @@
 //         forMethods.textContent=`you have to pay first`
 //     }
 
+// }
+
+//------------------------------------//------------------------------------------
+// ternary operator
+// here it is a simpler way to write if else statement
+// instead of all you can just write 
+// message = (here put condition) age=3 if its true then put ? and start 
+// message = age = 3 ?`here you have to put the true statement` :`here you have to put the false statement`;
+
+
+
+//------------------------------------//------------------------------------------
+
+// this is a switch statement
+// it is used if a lot of chain is there in if else 
+
+// let day = prompt("Enter a day of the week:");
+
+// switch (day.toLowerCase()) {
+//   case "monday":
+//     alert("Start of the work week!");
+//     break;
+//   case "tuesday":
+//     alert("Second day of the work week.");
+//     break;
+//   case "wednesday":
+//     alert("Midweek already!");
+//     break;
+//   case "thursday":
+//     alert("Almost Friday!");
+//     break;
+//   case "friday":
+//     alert("Weekend is near!");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     alert("It's the weekend!");
+//     break;
+//   default:
+//     alert("Not a valid day.");
 // }
